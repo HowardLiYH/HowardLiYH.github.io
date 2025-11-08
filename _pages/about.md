@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "My name is Yuhao Li 李琙浩. Please feel free to call me Howard!"
 author_profile: true
 redirect_from: 
   - /about/
