@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "WechatIMG3051.jpg"
   name             : "Howard Li"
   pronouns         : # He/him"  
   bio              : "Master's student in AMCS"
