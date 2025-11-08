@@ -1,11 +1,13 @@
 ---
+layout: single
+title: "My name is Yuhao Li 李煜浩. Please feel free to call me Howard!"
 permalink: /
-title: "My name is Yuhao Li 李琙浩. Please feel free to call me Howard!"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+
 
 
 About me 
