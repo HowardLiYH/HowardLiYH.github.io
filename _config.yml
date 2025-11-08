@@ -8,7 +8,7 @@ Your Name / Site Title# Welcome to Jekyll!
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Howard Li / Personal Website"
 title_separator          : "-"
 name                     : &name "Your Name"
