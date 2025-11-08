@@ -1,9 +1,10 @@
 ---
 title: "About"
-permalink: /about/
 layout: single
+permalink: /
 author_profile: true
 ---
+
 
 About me 
 ======
