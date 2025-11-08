@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to the Page of Yuhao Li 李琙浩! You can also feel free to call me Howard."
 author_profile: true
 redirect_from: 
   - /about/
