@@ -1,10 +1,10 @@
 
 ---
-layout: single
-title: "Howard Li"
+layout: none
 permalink: /
-author_profile: true
+redirect_to: /about/
 ---
+
 
 # Welcome!
 This is my homepage. Use the navigation above or the links below.
