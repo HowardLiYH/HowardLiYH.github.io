@@ -22,9 +22,11 @@ My work treats Multi-Agent Systems as a Combinatorial Assignment Problem, aiming
 
 On-going Research
 --
-1. Distributed Combinatorial Optimization
+**1. Distributed Combinatorial Optimization**
 
+<p align="center">
 <img src="https://github.com/user-attachments/assets/24b4cc14-db45-42cc-8f9d-91d85ca173bf" width="50%" />
+</p>
 
 My research focuses on Distributed Combinatorial Optimization for Generative Agents, investigating how populations of competing entities can solve complex optimization problems through emergent collective behavior rather than centralized coordination. The foundational contribution is the [NichePopulation Algorithm](https://github.com/HowardLiYH/NichePopulation), a fitness-proportional selection mechanism that enables agent populations to develop specialized roles across distinct environmental niches without explicit task assignment—demonstrating that diversity and specialization emerge naturally from competition alone. Building on this framework, [Emergent Prompt Evolution](https://github.com/HowardLiYH/Emergent-Preference-Specialization-in-LLM-Agent-Populations) extends these principles to the optimization of natural language instructions for large language models, where populations of prompt variants undergo selection pressure to discover high-performing configurations that would be intractable to engineer manually. Most recently, I have applied these methods across multiple domains—including quantitative finance, weather forecasting, and traffic prediction—uncovering the ["Blind Synchronization Effect"](https://github.com/HowardLiYH/Emergent-Applications/tree/main/apps/trading), a phenomenon where competing replicators, without access to environmental state information, develop specialization patterns that become statistically cointegrated with domain-specific regime indicators. Across these applications, a unifying theme emerges: distributed competition serves as a powerful optimization primitive, capable of discovering structured solutions in high-dimensional spaces where traditional search methods struggle, with implications spanning multi-agent systems, automated machine learning, and adaptive decision-making in non-stationary environments.
 
@@ -33,9 +35,11 @@ My research focuses on Distributed Combinatorial Optimization for Generative Age
 <br>
 
 
-2. MAS for Finance, a Multi-agent LLM Financial Trading Model
+**2. MAS for Finance, a Multi-agent LLM Financial Trading Model**
 
-<img width="50%" height="800" alt="image" src="https://github.com/user-attachments/assets/2c7f93c8-1d8c-45f0-9319-d3316509e807" />
+<p align="center">
+<img width="50%" alt="image" src="https://github.com/user-attachments/assets/2c7f93c8-1d8c-45f0-9319-d3316509e807" />
+</p>
 
 
 
