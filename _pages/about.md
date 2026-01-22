@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "My name is Yuhao Li 李煜浩. Please feel free to call me Howard!"
+title: "My name is Yuhao Li 李琙浩. Please feel free to call me Howard!"
 permalink: /
 author_profile: true
 redirect_from:
@@ -14,19 +14,32 @@ About me
 ======
 Howard earned his B.A. from [Bowdoin College](https://www.bowdoin.edu/), majoring in Mathematics and Economics, and now embarks on his next chapter at the University of Pennsylvania's Master's program in [AMCS (Applied Math and Computational Science)](https://amcs.upenn.edu/).
 
-Howard aspires to apply rigorous quantitative methods to address operational inefficiencies, financial innovation, and sustainability challenges. His short-term goal is to obtain a PhD in Mathematics or Statistics, where he aims to focus on pioneering research and expanding the boundaries of mathematical methodologies. Armed with these enhanced capabilities, he plans to transition into the industry in the long term, using advanced quantitative techniques to create data-driven strategies that empower communities, boost sustainability, and drive meaningful progress.
+Current Research Focus: Distributed Combinatorial Optimization for Generative Agents. 
+
+My work treats Multi-Agent Systems as a Combinatorial Assignment Problem, aiming to optimize the bipartite matching between N agents and R tasks without central control. Instead of manual prompt engineering or standard RL, I develop population-based metaheuristics (specifically, competitive exclusion dynamics) to search the discrete strategy space of Large Language Models. This approach functions as a decentralized solver, empirically achieving near-optimal resource allocation (converging to the theoretical performance ceiling) on complex allocation benchmarks—effectively solving the Maximum Weight Matching problem in a gradient-free setting.
 
 
 
 On-going Research
 --
-MAS for Finance, a Multi-agent LLM Financial Trading Model on Crypto Perpetual
+1. Distributed Combinatorial Optimization
 
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/2c7f93c8-1d8c-45f0-9319-d3316509e807" />
+<img src="https://github.com/user-attachments/assets/24b4cc14-db45-42cc-8f9d-91d85ca173bf" width="50%" />
+
+My research focuses on Distributed Combinatorial Optimization for Generative Agents, investigating how populations of competing entities can solve complex optimization problems through emergent collective behavior rather than centralized coordination. The foundational contribution is the [NichePopulation Algorithm](https://github.com/HowardLiYH/NichePopulation), a fitness-proportional selection mechanism that enables agent populations to develop specialized roles across distinct environmental niches without explicit task assignment—demonstrating that diversity and specialization emerge naturally from competition alone. Building on this framework, [Emergent Prompt Evolution](https://github.com/HowardLiYH/Emergent-Preference-Specialization-in-LLM-Agent-Populations) extends these principles to the optimization of natural language instructions for large language models, where populations of prompt variants undergo selection pressure to discover high-performing configurations that would be intractable to engineer manually. Most recently, I have applied these methods across multiple domains—including quantitative finance, weather forecasting, and traffic prediction—uncovering the ["Blind Synchronization Effect"](https://github.com/HowardLiYH/Emergent-Applications/tree/main/apps/trading), a phenomenon where competing replicators, without access to environmental state information, develop specialization patterns that become statistically cointegrated with domain-specific regime indicators. Across these applications, a unifying theme emerges: distributed competition serves as a powerful optimization primitive, capable of discovering structured solutions in high-dimensional spaces where traditional search methods struggle, with implications spanning multi-agent systems, automated machine learning, and adaptive decision-making in non-stationary environments.
+
+
+<br>
+<br>
+
+
+2. MAS for Finance, a Multi-agent LLM Financial Trading Model
+
+<img width="50%" height="800" alt="image" src="https://github.com/user-attachments/assets/2c7f93c8-1d8c-45f0-9319-d3316509e807" />
 
 
 
-Collaborating with [Xiaoxing Wang](https://scholar.google.com/citations?user=n2ewxUIAAAAJ&hl=zh-CN) and [Ning Liao](https://scholar.google.com/citations?user=6aARLhMAAAAJ&hl=zh-CN) from [SJTU](https://en.sjtu.edu.cn/) on designing multi-agent LLM orchestration with continual learning and probabilistic calibration for adaptive, explainable decision-making in financial trading systems. Our model incorporates five types of agents to replicate the workflow pipeline of a hedge fund: Analysts, Researchers, Traders, Risk Managers, and Evaluators. The system ingests two distinct streams of information, text-based news data and time-series price data, and enables agents to perform trading activities while continually improving through feedback. Each agent type has its own responsibilities and draws from specialized methodological inventories⁽³⁾ to complete tasks. Their performance is assessed against fixed metrics defined by the Evaluator Agent after each trading round⁽⁴⁾. Following every K iterations, the top performer within each agent category transfers knowledge to its peers, and the process repeats.
+Collaborating with [Xiaoxing Wang](https://scholar.google.com/citations?user=n2ewxUIAAAAJ&hl=zh-CN) and [Ning Liao](https://scholar.google.com/citations?user=6aARLhMAAAAJ&hl=zh-CN) from [SJTU](https://en.sjtu.edu.cn/) on designing multi-agent LLM orchestration with continual learning and probabilistic calibration for adaptive, explainable decision-making in financial trading systems. [Our model](https://github.com/HowardLiYH/PopAgent) incorporates five types of agents to replicate the workflow pipeline of a hedge fund: Analysts, Researchers, Traders, Risk Managers, and Evaluators. The system ingests two distinct streams of information, text-based news data and time-series price data, and enables agents to perform trading activities while continually improving through feedback. Each agent type has its own responsibilities and draws from specialized methodological inventories to complete tasks. Their performance is assessed against fixed metrics defined by the Evaluator Agent after each trading round. Following every K iterations, the top performer within each agent category transfers knowledge to its peers, and the process repeats.
 
 
 Publications & Conference Papers
