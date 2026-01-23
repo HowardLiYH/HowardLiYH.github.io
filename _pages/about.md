@@ -10,11 +10,11 @@ redirect_from:
 
 
 
-About me 
+About me
 ======
 Howard earned his B.A. from [Bowdoin College](https://www.bowdoin.edu/), majoring in Mathematics and Economics, and now embarks on his next chapter at the University of Pennsylvania's Master's program in [AMCS (Applied Math and Computational Science)](https://amcs.upenn.edu/).
 
-Current Research Focus: Distributed Combinatorial Optimization for Generative Agents. 
+Current Research Focus: Distributed Combinatorial Optimization for Generative Agents.
 
 My work treats Multi-Agent Systems as a Combinatorial Assignment Problem, aiming to optimize the bipartite matching between N agents and R tasks without central control. Instead of manual prompt engineering or standard RL, I develop population-based metaheuristics (specifically, competitive exclusion dynamics) to search the discrete strategy space of Large Language Models. This approach functions as a decentralized solver, empirically achieving near-optimal resource allocation (converging to the theoretical performance ceiling) on complex allocation benchmarks—effectively solving the Maximum Weight Matching problem in a gradient-free setting.
 
